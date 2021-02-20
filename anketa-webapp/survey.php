@@ -77,7 +77,7 @@
 	
 	<?php
 	
-			$_SESSION["user_email"] = 'edrpa8420ri@raf.rs';
+			$_SESSION["user_email"] = 'test@raf.rs';
 
 			
 			$query = "SELECT id_semestra AS id, skolska_godina, tip_semestra FROM semestar where id_semestra = (SELECT MAX(id_semestra) FROM semestar)";
